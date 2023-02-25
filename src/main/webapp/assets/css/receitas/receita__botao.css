@@ -1,1 +1,14 @@
 @charset "ISO-8859-1";
+.receita__botao{
+	color: #FFFFFF;
+	background-color: #8D0606;
+	border: none;
+	border-radius: 5px;
+	padding: 1rem;
+	transition: all .1s ease-in-out;
+}
+
+.receita__botao:hover {
+	background-color: #620404;
+	cursor: pointer;
+}

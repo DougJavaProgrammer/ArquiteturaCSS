@@ -1,1 +1,7 @@
 @charset "ISO-8859-1";
+.receita__titulo{
+	font-family: Roboto;
+	font-weight: 400;
+	text-align: left;
+	font-size: 1.4375rem;
+}
