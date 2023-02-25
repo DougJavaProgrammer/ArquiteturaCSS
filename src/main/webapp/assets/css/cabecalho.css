@@ -7,29 +7,3 @@
 	padding-left:  2rem;
 	padding-right: 2rem;
 }
-
-.cabecalho__navegacao ul{
-	display: flex;
-	list-style: none;
-	color: #808080;
-}
-
-.cabecalho__link{
-	margin: 0 1.25rem;
-	text-decoration: none;
-	text-transform: lowercase;	
-}
-
-.cabecalho__link:nth-child(1){
-	color: #333333;
-	font-weight: bold;
-}
-
-.cabecalho__link:last-child {
-	margin-right: 0;
-}
-
-.cabecalho__link:hover {
-	text-decoration: underline;	
-	font-size: 1.25rem;	
-}
