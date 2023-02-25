@@ -1,0 +1,6 @@
+@charset "ISO-8859-1";
+.pessoas{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 3rem;
+}
