@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+.sobre__titulo{
+	font-family: Pacifico, cursive;
+	font-size: 3.1875rem;
+	font-weight: 400;
+	color: #8D0606;
+	text-align: center;
+	margin-top: 2rem;
+	margin-bottom: 1.25rem;
+}

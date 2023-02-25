@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+.sobre{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
