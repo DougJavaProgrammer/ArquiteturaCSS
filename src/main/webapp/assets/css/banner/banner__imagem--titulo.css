@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+.banner__imagem--titulo{
+	font-family: Pacifico, cursive;
+	font-size: 5.0625rem;
+	position: absolute; /*para dar certo a posição deste elemento, o pai BANNER precisa ser relative*/
+	left: 50%;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);	
+	color: #FFFFFF;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}

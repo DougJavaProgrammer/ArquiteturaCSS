@@ -1,0 +1,5 @@
+@charset "ISO-8859-1";
+.banner__imagem{
+	height: calc(100vh - 69px); /*100 por cento da altura da tela menos a altura do cabecalho que é 69px*/
+	width: 100vw;
+}
