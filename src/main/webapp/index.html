@@ -11,9 +11,9 @@
 	        <link href="./assets/css/cabecalho.css" rel="stylesheet" />
 	        <link href="./assets/css/cabecalho.css" rel="stylesheet" />
 	        <link href="./assets/css/menu/menu.css" rel="stylesheet" />
-	        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
-	        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
-	        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+	        <link href="./assets/css/menu/menu__lista.css" rel="stylesheet" />
+	        <link href="./assets/css/menu/menu__item.css" rel="stylesheet" />
+	        <link href="./assets/css/menu/menu__link.css" rel="stylesheet" />
     </head>
     <body>
     
@@ -21,14 +21,25 @@
        	<header class="cabecalho container">
     		<img src="assets/img/logo.jpg" alt="Logo da página Fruta e Fruto" />
     		<nav class="menu">
-    			<ul class="menu-lista">
-    				<li class="menu-item">início<a  class="menu-link" href="#"></a></li>
-    				<li class="menu-item">receitas<a class="menu-link"  href="#"></a></li>
-    				<li class="menu-item">quem somos<a class="menu-link"  href="#"></a></li>
-    				<li class="menu-item">comunidade<a class="menu-link"  href="#"></a></li>
+    			<ul class="menu__lista">
+    				<li class="menu__item">início<a  class="menu__link" href="#"></a></li>
+    				<li class="menu__item">receitas<a class="menu__link"  href="#"></a></li>
+    				<li class="menu__item">quem somos<a class="menu__link"  href="#"></a></li>
+    				<li class="menu__item">comunidade<a class="menu__link"  href="#"></a></li>
     			</ul>          
     		</nav>
     	</header>
+    	
+    	<!-- emmet do código abaixo (section.banner>img.banner__imagem+h1.banner__imagem--titulo)+(section.sobre>h2.sobre__titulo+p.sobre__titulo--descricao) -->
+    	<section class="banner">
+    		<img src="./assets/img/banner.jpg" alt="Banner da página fruta e fruto" class="banner__imagem" />
+    		<h1 class="banner__imagem--titulo">Reaproveite melhor os alimentos!</h1>
+    	</section>
+    	
+    	<section class="sobre">
+    		<h2 class="sobre__titulo">Receitas para economizar e ganhar saúde</h2>
+    		<p class="sobre__titulo--descricao">Nossa receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
+    	</section>
     
     </body>
 </html>

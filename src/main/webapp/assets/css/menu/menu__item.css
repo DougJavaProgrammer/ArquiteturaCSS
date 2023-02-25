@@ -1,21 +1,21 @@
 @charset "ISO-8859-1";
-.menu-item{
+.menu__item{
 	margin: 0 1.25rem;
 	text-decoration: none;
 	text-transform: lowercase;	
 }
 
-.menu-item:hover {
+.menu__item:hover {
 	text-decoration: underline;	
 	font-size: 1.25rem;	
 }
 
-.menu-item:nth-child(1){
+.menu__item:nth-child(1){
 	color: #333333;
 	font-weight: bold;
 }
 
-.menu-tem:last-child {
+.menu__item:last-child {
 	margin-right: 0;
 }
 
